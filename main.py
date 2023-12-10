@@ -41,6 +41,7 @@ if __name__ == "__main__":
     # Non-followers calculation
     non_followers = following - followers
 
+    # todo: Automate logging
     print("Followers:", len(followers))
     print("Following:", len(following))
     print("Non-Followers:", len(non_followers))
